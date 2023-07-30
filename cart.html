@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multipage-Website</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./styling.css/ss1.css">
+    <!--Awsome-->
+    <script src="https://kit.fontawesome.com/5e697363a6.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5e697363a6.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5e697363a6.js" crossorigin="anonymous"></script>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+         <!--NAV  BAR-->
+         <section id="header">
+        <a><img src="vector.png" class="logo"></a>
+        <nav>
+            <ul id="navbar">
+                <li><a  href="website1.html">Home</a></li>
+                <li><a  href="Shop.html">Shop</a></li>
+                <li><a  href="About.html">About</a></li>
+                <li><a  href="Contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close" onclick= "navbar.style.right = '-300px';"><i class="fa-solid fa-circle-xmark"></i></a>
+            </ul>
+        </nav>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent" onclick= "navbar.style.right = '0px';"></i>
+        </div>
+         </section>
+
+
+         <!--talk to us-->
+         <div id="cartlist">
+             <h1>#Shopping</h1>
+         </div>
+
+
+        <!--Add to cart-->
+        <secction id="cart" class="section-p1">
+              <table width=100%>
+                  <thead>
+                    <!--<td>Remove</td>-->
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                  </thead>
+                  <tbody>
+                    <tr id="row">
+                        <!--<td><a href=""><i  class="far fa-times-circle"></i></a></td>
+                        <td><button class="btn" onclick="rowdel(this)">remove</button></td>-->
+                        <td><img src="product.png/t shirt2.png" alt="" srcset=""></td>
+                        <td>T shirt</td>
+                        <td>700</td>
+                        <td><input id="inp" type="number" value="1"></td>
+                        <td>700</td>
+                    </tr>
+                    <tr id="row">
+                        <!--<td><a href=""><i  class="far fa-times-circle"></i></a></td>
+                        <td><button class="btn" onclick="rowdel(this)">remove</button></td>-->
+                        <td><img src="product.png/dress2.png" alt="" srcset=""></td>
+                        <td>Kurti</td>
+                        <td>1,000</td>
+                        <td><input id="inp" type="number" value="1"></td>
+                        <td>1,000</td>
+                    </tr>
+                    <tr id="row">
+                        <!--<td><a href=""><i  class="far fa-times-circle"></i></a></td>
+                        <td><button class="btn" onclick="rowdel(this)">remove</button></td>-->
+                        <td><img src="product.png/dress3.png" alt="" srcset=""></td>
+                        <td>Classy dress</td>
+                        <td>2,500</td>
+                        <td><input id="inp" type="number" value="1"></td>
+                        <td>2,500</td>
+                    </tr>
+                  </tbody>
+              </table>
+        </secction>
+
+        <!---new section-->
+        <section id="cartadd" class="section-p1">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div>
+                    <input type="text" placeholder="Enter your coupon">
+                    <button class="btn">Apply</button>
+                </div>
+            </div>
+            <div id="subtotal">
+                <h3>cart total</h3>
+                <table>
+                    <tr>
+                        <td>Cart total</td>
+                        <td>4,200</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>4,200</strong></td>
+                    </tr>
+                </table>
+                <button class="btn">Proceed to checkout</button>
+            </div>
+            
+        </section>
+
+         <!--Footer-->
+         <footer class="section-p1" id="footer">
+            <div id="upper">
+                        <!--contact-->
+             <div class="small">
+                <div>
+                    <h4>Contact</h4>
+                    <p><strong>Address:</strong> Kashmiri gate.</p>
+                    <p><strong>Phone:</strong> +91-854XXXX87</p>
+                    <p><strong>Hours:</strong> 9am to 5pm</p>
+                </div>
+                <div>
+                    <h4>Follow Us</h4>
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <!--About-->
+            <div class="top">
+                <h4>About</h4>
+                <div class="col">
+                    <a href="">About Us</a>
+                    <a href="">Delivery Information</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms & Conditions</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+            
+            <!--Account-->
+            <div class="top">
+                <h4>My Account</h4>
+                <div class="col">
+                    <a href="">Sign In</a>
+                    <a href="">View Cart</a>
+                    <a href="">My Wallet</a>
+                    <a href="">Track My Order</a>
+                    <a href="">Help</a>
+                </div>
+            </div>
+            </div>
+    
+    
+            <div class="copyright">
+                <p>@ 2023, Ecommerce Template</p>
+            </div>
+    
+            
+         </footer>
+    
+
+
+        <!--SCRIPT
+        <script src="javaS.js/Scr1.js"></>-->
+    </body>
+    </html>
+    

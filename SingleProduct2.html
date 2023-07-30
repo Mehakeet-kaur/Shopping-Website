@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multipage-Website</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="./styling.css/ss1.css">
+    <!--Awsome-->
+    <script src="https://kit.fontawesome.com/5e697363a6.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5e697363a6.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5e697363a6.js" crossorigin="anonymous"></script>
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!--NAV  BAR-->
+    <section id="header">
+        <a><img src="vector.png" class="logo"></a>
+        <nav>
+            <ul id="navbar">
+                <li><a  href="website1.html">Home</a></li>
+                <li><a class="active" href="Shop.html">Shop</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="#" id="close" onclick= "navbar.style.right = '-300px';"><i class="fa-solid fa-circle-xmark"></i></a>
+            </ul>
+        </nav>
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent" onclick= "navbar.style.right = '0px';"></i>
+        </div>
+    </section>
+
+   <section id="pro-details" class="section-p1">
+      <div class="single-pro-image">
+        <!--main img-->
+        <img src="product.png/t shirt1.png" width="70%" style="margin-left:50px"  id="MainImg" alt="">
+        
+        
+        <div class="smallimage-group">
+            <!--1-->
+            <div class="smallimg-col">
+                <img onclick  =  "MainImg.src='product.png/t shirt1.png'" src="product.png/t shirt1.png" width="90%" class="small-img" alt="" srcset="">
+            </div>
+            <!--2-->
+            <div class="smallimg-col">
+                <img onclick  = "MainImg.src='product.png/S2.png'" src="product.png/S2.png" id="firstimage" width="80%" class="small-img" alt="" srcset="">
+            </div>
+            <!--3-->
+            <div class="smallimg-col">
+                <img onclick =  "MainImg.src='product.png/S3.png'" src="product.png/S3.png" id="secondimage" width="100%" class="small-img" alt="" srcset="">
+            </div>
+            <!--4-->
+            <div class="smallimg-col">
+                <img onclick=  "MainImg.src='product.png/S4.png'" src="product.png/S4.png" id="thirdimage" width="76%" class="small-img" alt="" srcset="">
+            </div>
+        </div>
+      </div>
+
+    
+      <!--single detail-->
+      <div class="single-pro-details">
+          <h6>Home/T-shirt</h6>
+          <h4>Men's Fashion T shirt</h4>
+          <h2>1,500</h2>
+          <select name="" id="">
+            <option value="">SelectSize</option>
+            <option value="">XL</option>
+            <option value="">XXL</option>
+            <option value="">Small</option>
+            <option value="">Large</option>
+          </select>
+          <input type="number" value="1">
+          <button class="normal">Add To Cart</button>
+          <h4>Product Details</h4>
+          <span>Care Guidelines: Fit Type for Machine Wash
+            <br>
+            Regular Fit : Fitted at the Chest and Straight from the Waist Down
+            <br>
+            Fabric Information: Single Jersey, 100% Cotton Neck: Round Neck Print Type: Graphic Printed
+            Style Tip: For a cozy, casual look, wear this T-shirt with your favorite jeans and sneakers.
+            
+            </span>
+
+      </div>
+   </section>
+   
+   
+    <!--Footer-->
+    <footer class="section-p1" id="footer">
+        <div id="upper">
+                    <!--contact-->
+         <div class="small">
+            <div>
+                <h4>Contact</h4>
+                <p><strong>Address:</strong> Kashmiri gate.</p>
+                <p><strong>Phone:</strong> +91-854XXXX87</p>
+                <p><strong>Hours:</strong> 9am to 5pm</p>
+            </div>
+            <div>
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <!--About-->
+        <div class="top">
+            <h4>About</h4>
+            <div class="col">
+                <a href="">About Us</a>
+                <a href="">Delivery Information</a>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Contact Us</a>
+            </div>
+        </div>
+        
+        <!--Account-->
+        <div class="top">
+            <h4>My Account</h4>
+            <div class="col">
+                <a href="">Sign In</a>
+                <a href="">View Cart</a>
+                <a href="">My Wallet</a>
+                <a href="">Track My Order</a>
+                <a href="">Help</a>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="copyright">
+            <p>@ 2023, Ecommerce Template</p>
+        </div>
+
+        
+     </footer>
+    
+
+
+
+    <!--SCRIPT
+    <script src="javaS.js/Scr1.js"></script>-->
+</body>
+</html>
